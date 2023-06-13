@@ -30,14 +30,14 @@ To formulate the optimization problem, Guassian Process Regressor is selected fo
 a) it is a powerful tool to interpolte data in nonparametric dataset.
 b) it works well on small datasets. 
 
-Here is a demostration of 2 parameters:
-1. We started with a 2D scatter plot with a colorbar by DELTA value.  
+  #### Here is a demostration of 2 parameters:
+1. We start with a 2D scatter plot with a colorbar by DELTA value.  
 ![image](https://github.com/ruijing-xiong/consulting_practicum/assets/129993213/629f56d0-48ba-4f3b-b32e-abf4b9d91048)
 
 2. After interpolating data which means, in our case, to estimate unknown DELTA based on the given settings, the blank space will be filled with values (blanks turn into green areas). 
 ![image](https://github.com/ruijing-xiong/consulting_practicum/assets/129993213/fb7ce5d5-1e83-4992-af6b-61f60e5da5e5)
 
-3: Min DELTA is marked as a white 'X' on the plot. 
+3. Min DELTA is marked as a white 'X' on the plot. 
 4. Recommended settings are printed at the bottom of the plot. 
 
 ### Part 5 - populate optimal settings:
