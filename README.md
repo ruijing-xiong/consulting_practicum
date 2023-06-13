@@ -34,7 +34,7 @@ b) it works well on small datasets.
 1. We start with a 2D scatter plot with a colorbar by DELTA value.  
 ![image](https://github.com/ruijing-xiong/consulting_practicum/assets/129993213/629f56d0-48ba-4f3b-b32e-abf4b9d91048)
 
-2. After interpolating data by using Guassian Process Regressor model, unknown DELTA based on the given settings can be estimated. The blank space from the 2D splot are filled with values and colored by DELTA values. 
+2. After interpolating data by using Guassian Process Regressor model, unknown DELTA based on the given settings can be estimated. The blank space from the previous 2D plot are filled with values and colored by DELTA values. 
 ![image](https://github.com/ruijing-xiong/consulting_practicum/assets/129993213/fb7ce5d5-1e83-4992-af6b-61f60e5da5e5)
 
 3. Min DELTA of the area is found and marked as a white 'X' on the plot.
