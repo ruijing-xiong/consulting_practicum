@@ -8,9 +8,9 @@ This is a 2-month sponsored capstone project. Our project aims to find the optim
 
 ### Part 1 - get inputs from google sheets:
 
-This is the interface to enter information on users end and auto-populate recommended combine settings from model.
+The function is applied to read data from google sheets. 
 
-To make the process more convinence for users(farmers), a sheet is created for them to enter the following basic informations: crop type they attempt to  harvest, combine model number(size) they are using, country, and city (if inside USA, zipcode will be taken into consideration). 
+To make the process more convinence for users(farmers), a worksheet is created for them to enter the following basic informations: crop type they attempt to  harvest, combine model number(size) they are using, country, and city (if inside USA, zipcode will be taken into consideration). This is the interface to enter information on users end and auto-populate recommended combine settings from model. 
 
 ### Part 2 - get current weather conditions from API:
 
@@ -18,8 +18,9 @@ By using Geopy package in Python, location information from input sheets will be
 
 ### Part 3 - data manipulation:
 
+The function in this part has two tasks in order to better prepare for modeling:
 1. Data cleaning is performed in this part such as: checking NAs, removing unnecessary columns, creating additional target DELTA variable (MOG + Broken Grain - Yield), etc.
-2. To better prepare and keep the data relevant, filter data based on model number and crop type inputs from the interface. 
+2. To only keep the relevant data, filtering the dataset based on model number and crop type inputs from the interface is neccessary. 
 
 ### Part 4 - fit in Guassian Process Regressor model:
 
