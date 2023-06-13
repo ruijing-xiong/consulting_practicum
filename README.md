@@ -1,6 +1,6 @@
 # Consulting Practicum
 
-This is a 2-month sponsored capstone project. Our project aims to find the optimal combine settings to farmers that result in the maximum yield while trying to minimize MOG(Materials Other Than Grains) and Broken Grains based on real-time weather conditions during harvesting. The process of the demo can be divided into five parts (data exploration will not be demonstrated).
+This is a 3-month capstone project. Our project aims to find the optimal combine settings to farmers that result in the maximum yield while trying to minimize MOG(Materials Other Than Grains) and Broken Grains based on real-time weather conditions during harvesting. The process of the demo can be divided into five parts (data exploration will not be demonstrated).
 
 - The constraints to focus on: Crop Type, Combine Model Number(size), Location Information (country, city, etc.), Current Temperature, Current Precipitation, Current Wind Speed, Current Pressure
 - The combine settings to focus on:  Concave Position, Chaffer Position, Sieve Position, Rotor Speed, Fan Speed
