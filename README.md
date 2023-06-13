@@ -42,7 +42,7 @@ b) it works well on small datasets.
 
 ### Part 5 - populate optimal settings:
 
-The sheet will be updated with optimal outputs from Gussian Process Regressor.  
+The google sheet will be updated with the optimal outputs from Gussian Process Regressor.  
 
 
 
